@@ -1,0 +1,35 @@
+body{
+    background-image: url(img/kimo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.cont{
+   float: right;
+   text-align: center;
+   transform: translateX(-70px);
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+h2{
+    margin-top: 50px;
+    border: 2px solid #fff;
+    width: 150px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #1D1210;
+    font-family: sans-serif;
+    
+}
+h2:hover{
+    background-color:#000000;
+    cursor:pointer;
+    border-color: #807C79;
+    text-align: center;
+    width: 170px;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+}
